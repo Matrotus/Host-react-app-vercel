@@ -1,13 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import ItemListContainer from './components/itemListContainer/ItemListContainer';
+import Navbar from './components/Navbar/Navbar.js';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer.js';
 import Cart from './components/Cart/Cart.js';
-import { CartProvider } from './context/CartContext';
-import Login from './components/Login/Login'
-import { AuthProvider } from './context/AuthContext';
-import Checkout from './components/Checkout/Checkout';
+import { CartProvider } from './context/CartContext.js';
+import Login from './components/Login/Login.js'
+import { AuthProvider } from './context/AuthContext.js';
+import Checkout from './components/Checkout/Checkout.js';
 
 function App() {
   
