@@ -1,38 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
+  background-color: #2257c0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: rgb(112, 55, 55);
+} */
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tituloNotas { 
+  color: white;
+}
+
+
+
+.title-checkout { 
+  display: flex;
+  justify-content: center;
+}
+
+.form { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-inline: 700px;
+  
+}
+
+.labelsForm { 
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+
+.tarjeta { 
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+
+}
+
+.addProduct { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn { 
+  background-color:white ;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 50px;
+  
+  
+}
+
+.btn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.btn-add{ 
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn-red { 
+  background-color: red;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 50px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+.botones {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.boton-detail { 
+  background-color: rgb(18, 144, 218);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.title-detail { 
+  margin-top: 3rem;
+}
+
+.title-list { 
+  margin-top: 3rem;
 }

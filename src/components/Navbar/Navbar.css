@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.CarritoBoton{
+    border-radius: 5px;
+}
+
+.Cart{
+    display: flex;
+    align-items: center;
+}
+
+.CartSvg{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    padding: .75rem;
+    border-bottom: 1px solid black;
+    
+}
+
+
+.boton{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+.BotonActive { 
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 144, 218);
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.boton:hover{
+    background-color: rgb(18, 144, 218);
+    color: white;
+    text-decoration: underline;
+}
+
+.login-btn{ 
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 144, 218);
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
